@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:backgroundTint="@color/black"
+        android:id="@+id/button"
+        android:layout_width="174dp"
+        android:layout_height="81dp"
+        android:text="COMMENCER"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="419dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:textAlignment="center"
+        android:id="@+id/textView"
+        android:layout_width="214dp"
+        android:layout_height="133dp"
+        android:text="Bienvenue dans RasberrySport \n\n Appuyez sur COMMENCER."
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="156dp"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
